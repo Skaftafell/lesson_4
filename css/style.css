@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap);
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+@font-face {
+   font-family: "ArthurHill";
+   src: url("../fonts/ArthurHillRegular.woff2") format("woff2"), url("../fonts/ArthurHillRegular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+body {
+   background-color: #caf2f99c;
+   font-family: "Lato", sans-serif;
+}
+
+a {
+   cursor: pointer;
+   text-decoration: underline !important;
+   color: red;
+   font-size: 30px;
+   font-weight: 900;
+}
+
+/* -----------MAIN--------------------- */
+h1 {
+   font-family: "ArthurHill";
+   font-size: 45px;
+   color: blue;
+   text-transform: uppercase;
+}
+
+h2 {
+   font-size: 30px;
+   text-transform: uppercase;
+   color: rgba(27, 27, 164, 0.919);
+}
+
+
+/* ----------ALL P------------------ */
+.lend__one,
+.white-bird__one,
+.babilon-xx__one,
+.certificate-missing__one,
+.behind-two-hares__one {
+   color: rgba(142, 86, 86, 0.852);
+}
+
+.lend__two,
+.white-bird__two,
+.babilon-xx__two,
+.certificate-missing__two,
+.behind-two-hares__two {
+   color: rgba(180, 10, 10, 0.852);
+}
+.lend__three,
+.babilon-xx__three,
+.certificate-missing__three,
+.behind-two-hares__three {
+   color: rgba(180, 140, 10, 0.852);
+}
+
+.lend__four,
+.babilon-xx__four,
+.certificate-missing__four,
+.behind-two-hares__four {
+   color: rgba(75, 180, 10, 0.852);
+}
+
+.babilon-xx__five{
+   color: rgba(10, 152, 180, 0.852);
+}
+
+/* ----------/ALL------------------ */
+/* ----------LAND------------------ */
+.land__text {
+   font-size: 20px;
+   font-weight: 400;
+}
+.land__link {
+   font-size: 20px;
+   color: cadetblue;
+   font-weight: 700;
+}
+/* ----------/LAND------------------ */
+/* ----------WHITE-BIRD------------- */
+.white-bird__text {
+   font-size: 20px;
+   font-weight: 400;
+}
+.white-bird__link {
+   font-size: 20px;
+   color: rgb(120, 230, 234);
+   font-weight: 700;
+}
+/* ----------/WHITE-BIRD------------- */
+/* ----------BABILON-XX------ ------- */
+.babilon-xx__text {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.babilon-xx__link {
+   font-size: 20px;
+   color: rgb(26, 225, 232);
+   font-weight: 700;
+}
+/* ----------/BABILON-XX------------- */
+/* ----------CERTIFICATE-MISSING----- */
+.certificate-missing__text {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.certificate-missing__link {
+   font-size: 20px;
+   color: rgba(26, 232, 150, 0.824);
+   font-weight: 700;
+}
+/* ----------/CERTIFICATE-MISSING---- */
+
+/* ----------BEHIND-TWO-HARES---    - */
+.behind-two-hares__text {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.behind-two-hares__link {
+   font-size: 20px;
+   color: rgba(69, 187, 140, 0.86);
+   font-weight: 700;
+}
+/* ----------/BEHIND-TWO-HARES---    - */
+
+.back__color {
+   color: rgba(255, 0, 0, 0.651);
+}
+/* -----------/MAIN--------------------- */
